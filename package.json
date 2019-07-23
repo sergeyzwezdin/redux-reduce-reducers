@@ -1,0 +1,28 @@
+{
+  "name": "redux-reduce-reducers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyzwezdin/redux-reduce-reducers.git"
+  },
+  "author": "Sergey Zwezdin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeyzwezdin/redux-reduce-reducers/issues"
+  },
+  "homepage": "https://github.com/sergeyzwezdin/redux-reduce-reducers#readme",
+  "devDependencies": {
+    "@types/redux": "^3.6.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "redux": "^4.0.4"
+  }
+}
